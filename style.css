@@ -10,8 +10,8 @@ body {
   right: 0;
   padding-left: 35%;
   padding-right: 35%;
-  background-color: #b5838d;
-  border: 0.67em solid #b5838d;
+  background-color: rgb(181, 131, 141);
+  border: 0.67em solid rgb(181, 131, 141);
   color: white;
 }
 
@@ -24,71 +24,84 @@ body {
 h2 {
   text-align: center;
   padding: 10px;
-  background-color: #b5838d;
+  background-color: rgb(181, 131, 141);
   color: white;
 }
 
 #licoes_aprendidas {
   display: inline-block;
   padding-right: 430px;
-  background-color: #ffb4a2;
-  border: solid #ffb4a2;
+  background-color: rgb(255, 180, 162);
+  border: solid rgb(255, 180, 162);
   line-height: 25px;
 }
 
 #licoes_a_aprender {
   display: inline-block;
   padding-right: 430px;
-  background-color: #e5989b;
-  border: solid #e5989b;
+  background-color: rgb(229, 152, 155);
+  border: solid rgb(229, 152, 155);
   line-height: 25px;
 }
 
-h3 {
-  font-size: 20px;
-  padding: 10px;
-  background-color: #b5838d;
-  color: white;
-}
-
-p {
-  color: #6d6875;
-  line-height: 20px;
-}
-
-#table {
+table {
   margin-top: 10px;
-  margin-left: 35%;
-  border: 2px solid #6d6875
+  margin-left: 33%;
+  border: 2px solid rgb(109, 104, 117);
 }
 
 th, td {
   padding: 5px;
-  border: 2px solid #6d6875
+  border: 2px solid rgb(109, 104, 117);
 }
 
 th:nth-child( 1 ) {
-  background-color: #ffb4a2;
+  background-color: rgb(255, 180, 162);
 }
 
 th:nth-child( 2 ) {
-  background-color: #e5989b;
+  background-color: rgb(229, 152, 155);
 }
 
 th:nth-child( 3 ) {
-  background-color: #ffb4a2;
+  background-color: rgb(255, 180, 162);
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 49%;
+  text-align: justify;
+}
+
+.lado-direito {
+  float: right;
+  width: 49%;
+}
+
+h3 {
+  text-align: left;
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(181, 131, 141);
+  color: white;
+}
+
+p {
+  color: rgb(109, 104, 117);
+  line-height: 20px;
 }
 
 #rodape {
   margin-top: 20px;
   padding: 5px;
-  background-color: #ffcdb2;
+  background-color: rgb(255, 205, 178);
   text-align: center;
+  clear: both;
 }
 
 a {
   text-decoration-line: none;
-  color: #6d6875;
+  color: rgb(109, 104, 117);
   font-weight: bold
 }
 
