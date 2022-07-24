@@ -5,9 +5,65 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  padding-left: 37%;
+  padding-right: 35%;
+  background-color: #B5838D;
+  border: 0.67em solid #B5838D;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px;
+  background-color: #B5838D;
 }
 
 #minha_foto {
-  width: 400px;
-  margin-top: 80px;
+  width: 200px;
+  margin-top: 110px;
+  padding-left: 42%;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  padding-right: 445px;
+  background-color: #FFB4A2;
+  border: 5px solid #FFB4A2;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  padding-right: 445px;
+  background-color: #E5989B;
+  border: 5px solid #E5989B;
+}
+
+#table {
+  margin-top: 10px;
+  margin-left: 35%;
+  border: 2px solid #6D6875
+}
+
+th, td {
+  padding: 5px;
+  border: 2px solid #6D6875
+}
+th:nth-child(1){
+  background-color: #FFB4A2;
+}
+
+th:nth-child(2){
+  background-color: #E5989B;
+}
+
+th:nth-child(3){
+  background-color: #FFB4A2;
+}
+
+#rodape {
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #FFCDB2;
+  text-align: center;
 }
