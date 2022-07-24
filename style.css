@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #cabecalho {
@@ -7,16 +8,11 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  padding-left: 37%;
+  padding-left: 35%;
   padding-right: 35%;
-  background-color: #B5838D;
-  border: 0.67em solid #B5838D;
-}
-
-h2 {
-  text-align: center;
-  padding: 10px;
-  background-color: #B5838D;
+  background-color: #b5838d;
+  border: 0.67em solid #b5838d;
+  color: white;
 }
 
 #minha_foto {
@@ -25,45 +21,74 @@ h2 {
   padding-left: 42%;
 }
 
+h2 {
+  text-align: center;
+  padding: 10px;
+  background-color: #b5838d;
+  color: white;
+}
+
 #licoes_aprendidas {
   display: inline-block;
-  padding-right: 445px;
-  background-color: #FFB4A2;
-  border: 5px solid #FFB4A2;
+  padding-right: 430px;
+  background-color: #ffb4a2;
+  border: solid #ffb4a2;
+  line-height: 25px;
 }
 
 #licoes_a_aprender {
   display: inline-block;
-  padding-right: 445px;
-  background-color: #E5989B;
-  border: 5px solid #E5989B;
+  padding-right: 430px;
+  background-color: #e5989b;
+  border: solid #e5989b;
+  line-height: 25px;
+}
+
+h3 {
+  font-size: 20px;
+  padding: 10px;
+  background-color: #b5838d;
+  color: white;
+}
+
+p {
+  color: #6d6875;
+  line-height: 20px;
 }
 
 #table {
   margin-top: 10px;
   margin-left: 35%;
-  border: 2px solid #6D6875
+  border: 2px solid #6d6875
 }
 
 th, td {
   padding: 5px;
-  border: 2px solid #6D6875
-}
-th:nth-child(1){
-  background-color: #FFB4A2;
+  border: 2px solid #6d6875
 }
 
-th:nth-child(2){
-  background-color: #E5989B;
+th:nth-child( 1 ) {
+  background-color: #ffb4a2;
 }
 
-th:nth-child(3){
-  background-color: #FFB4A2;
+th:nth-child( 2 ) {
+  background-color: #e5989b;
+}
+
+th:nth-child( 3 ) {
+  background-color: #ffb4a2;
 }
 
 #rodape {
   margin-top: 20px;
   padding: 5px;
-  background-color: #FFCDB2;
+  background-color: #ffcdb2;
   text-align: center;
 }
+
+a {
+  text-decoration-line: none;
+  color: #6d6875;
+  font-weight: bold
+}
+
